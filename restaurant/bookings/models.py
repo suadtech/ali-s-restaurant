@@ -41,7 +41,7 @@ class Booking(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     is_cancelled = models.BooleanField(default=False)  
 
-     class Meta:
+    class Meta:
         unique_together = ('table', 'date', 'time')
         ordering = ['date', 'time']
 
