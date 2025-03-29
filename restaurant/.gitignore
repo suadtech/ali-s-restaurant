@@ -1,0 +1,57 @@
+# Django
+*.pyc
+__pycache__/
+*.sqlite3
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.dev
+.env.prod
+
+# Media and static files
+/media/
+/staticfiles/
+/static/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Deployment files
+*.env
+*.bak
+*.tmp
+
+# Testing
+.coverage
+htmlcov/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
