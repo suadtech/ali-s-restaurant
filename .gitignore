@@ -1,0 +1,12 @@
+.venv/
+# Virtual environment
+.venv/
+venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Other common ignores
+*.log
+*.env
